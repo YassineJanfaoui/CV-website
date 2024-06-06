@@ -276,12 +276,14 @@ section {
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
-  
 }
 .arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+}
+.text-container p {
+  font-size: larger;
 }
 .details-container {
   padding: 1.5rem;
@@ -366,6 +368,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: 10%;
 }
 .contact-info-upper-container {
   display: flex;
