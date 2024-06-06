@@ -12,6 +12,9 @@
   #desktop-nav {
     display: none;
   }
+  #profile {
+    margin-top: 10vh;
+  }
   .section_pic-container {
     margin-left: 20vw;
   }
