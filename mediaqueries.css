@@ -43,7 +43,7 @@
     /* Fixed the typo here */
     width: 275px;
     height: 275px;
-    margin: 0 auto 2rem;
+    margin: 1rem auto;
   }
   .about-container {
     margin-top: 0;
@@ -53,6 +53,10 @@
   .btn-container,
   .experience-details-container {
     flex-wrap: wrap;
+  }
+  .about-pic {
+    position: relative;
+    left: -50px;
   }
 }
 
@@ -111,5 +115,9 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .about-pic {
+    position: relative;
+    left: 10px;
   }
 }
