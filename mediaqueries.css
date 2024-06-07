@@ -1,3 +1,13 @@
+@media screen and (max-width: 2080px) {
+  #contact {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    margin-top: 40%;
+  }
+}
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -57,6 +67,11 @@
   .about-pic {
     position: relative;
     left: -50px;
+  }
+  #contact,
+  footer {
+    height: 20vh;
+    margin-top: 10%;
   }
 }
 
