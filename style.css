@@ -367,8 +367,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 20vh;
-  margin-top: 5%;
+  height: 5vh;
 }
 .contact-info-upper-container {
   display: flex;
