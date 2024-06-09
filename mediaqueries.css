@@ -11,15 +11,22 @@
     flex-wrap: wrap;
     margin-bottom: 0;
   }
+  section,
+  .section-container {
+    height: fit-content;
+  }
 }
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
-    margin-bottom: 8rem;
+    margin-bottom: 10%;
   }
   .about-container {
     flex-wrap: wrap;
-    margin-top: 10%;
+  }
+  section,
+  .section-container {
+    height: fit-content;
   }
 }
 
@@ -29,7 +36,7 @@
   }
   #profile {
     margin-top: 10vh;
-    margin-bottom: 4vh;
+    margin-bottom: 10%;
   }
   .section_pic-container {
     margin-left: 20vw;
