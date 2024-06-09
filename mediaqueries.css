@@ -35,7 +35,7 @@
     display: none;
   }
   #profile {
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-bottom: 10%;
   }
   .section_pic-container {
@@ -67,7 +67,6 @@
     margin: 0 5%;
   }
   .section_pic-container {
-    /* Fixed the typo here */
     width: 275px;
     height: 275px;
     margin: 1rem auto;
@@ -96,14 +95,15 @@
   #contact,
   footer {
     height: 20vh;
+    margin-top: 15%;
   }
   .profile-pic {
     position: relative;
     left: 0px;
   }
   #profile {
-    height: 83vh;
-    margin-bottom: 0;
+    height: 63vh;
+    margin-bottom: 15%;
   }
   article {
     font-size: 1rem;
@@ -125,7 +125,6 @@
     font-size: 1rem;
   }
   .experience-subtitle {
-    /* Fixed the typo here */
     font-size: 1.25rem;
   }
   .logo {
@@ -137,13 +136,11 @@
     text-align: center;
   }
   .section_pic-container {
-    /* Fixed the typo here */
     width: auto;
     height: 46vw;
     justify-content: center;
   }
   .section_text_p2 {
-    /* Fixed the typo here */
     font-size: 1.25rem;
   }
   .title {
