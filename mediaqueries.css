@@ -7,9 +7,6 @@
     height: 50vh;
     margin-top: 10%;
   }
-  #about {
-    margin-top: 5%;
-  }
   .about-container {
     flex-wrap: wrap;
     margin-bottom: 0;
@@ -18,7 +15,7 @@
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
   }
   .about-container {
     flex-wrap: wrap;
@@ -32,6 +29,7 @@
   }
   #profile {
     margin-top: 10vh;
+    margin-bottom: 4vh;
   }
   .section_pic-container {
     margin-left: 20vw;
@@ -46,6 +44,10 @@
   #profile,
   .section-container {
     display: block;
+  }
+  .profile-pic {
+    position: relative;
+    left: 24px;
   }
   .arrow {
     display: none;
@@ -87,6 +89,10 @@
   #contact,
   footer {
     height: 20vh;
+  }
+  .profile-pic {
+    position: relative;
+    left: 0px;
   }
   #profile {
     height: 83vh;
