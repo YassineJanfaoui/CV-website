@@ -4,12 +4,16 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 50vh;
-    margin-top: 10%;
+    margin-top: 15%;
   }
   .about-container {
     flex-wrap: wrap;
     margin-bottom: 0;
+  }
+  #profile {
+    height: 53vh;
+    margin-top: 10vh;
+    margin-bottom: 10%;
   }
   section,
   .section-container {
@@ -18,7 +22,7 @@
 }
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 53vh;
     margin-bottom: 10%;
   }
   .about-container {
@@ -87,11 +91,11 @@
   #contact,
   footer {
     height: 10vh;
-    margin-top: 5%;
+    margin-top: 15%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   #contact,
   footer {
     height: 20vh;
@@ -152,5 +156,88 @@
   .about-pic {
     position: relative;
     left: 10px;
+  }
+}
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+  #contact,
+  footer {
+    height: 20vh;
+    margin-top: 20%;
+  }
+
+  .profile-pic {
+    position: relative;
+    left: 0px;
+  }
+  #profile {
+    height: 63vh;
+    margin-bottom: 45%;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-container,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-subtitle {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section_pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section_text_p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  .about-pic {
+    position: relative;
+    left: 10px;
+  }
+}
+@media screen and (max-width: 1400px) and (orientation: landscape) and (min-width: 1201px) {
+  #profile {
+    height: 53vh;
+    margin-bottom: 15%;
+    margin-top: 10%;
+  }
+  .about-container {
+    flex-wrap: wrap;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  #contact,
+  footer {
+    height: 20vh;
+    margin-top: 10%;
   }
 }
