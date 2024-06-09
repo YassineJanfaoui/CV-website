@@ -7,6 +7,13 @@
     height: 50vh;
     margin-top: 10%;
   }
+  #about {
+    margin-top: 5%;
+  }
+  .about-container {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
 }
 @media screen and (max-width: 1400px) {
   #profile {
@@ -15,6 +22,7 @@
   }
   .about-container {
     flex-wrap: wrap;
+    margin-top: 10%;
   }
 }
 
