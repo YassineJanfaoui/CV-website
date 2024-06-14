@@ -34,7 +34,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   #desktop-nav {
     display: none;
   }
@@ -77,6 +77,7 @@
   }
   .about-container {
     margin-top: 0;
+    flex-direction: column;
   }
   .about-container,
   .contact-info-upper-container,
@@ -120,6 +121,9 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+  }
+  .about-container {
+    flex-direction: column;
   }
   .contact-info-container {
     margin: 0;
