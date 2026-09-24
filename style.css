@@ -347,6 +347,61 @@ article .icon {
   cursor: default;
 }
 
+.job-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.job-container {
+  text-align: left;
+  padding: 1.5rem 2rem;
+}
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+}
+.job-company {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(53, 53, 53);
+}
+.job-role {
+  font-size: 1.05rem;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(85, 85, 85);
+}
+.job-location {
+  font-weight: 600;
+}
+.job-date {
+  font-style: italic;
+}
+.job-tasks {
+  margin: 1rem 0 0 1.25rem;
+  color: rgb(85, 85, 85);
+}
+.job-tasks li {
+  margin-bottom: 0.4rem;
+}
+.achievements-title {
+  margin: 2rem 0 0;
+}
+.achievements-container {
+  margin-top: 0;
+}
+.achievements-container h3 {
+  margin-bottom: 0.5rem;
+}
+.achievements-container a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 #projects {
   position: relative;
 }

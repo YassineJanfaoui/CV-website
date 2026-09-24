@@ -251,3 +251,9 @@
     max-width: calc(25% - 2.5rem);
   }
 }
+@media screen and (min-width: 1201px) {
+  #projects .details-container.project-wide {
+    flex: 2 1 calc(50% - 2.5rem);
+    max-width: calc(50% - 2.5rem);
+  }
+}
