@@ -245,15 +245,42 @@
     margin-top: 10%;
   }
 }
-@media screen and (min-width: 1201px) {
+/* Projects: uniform cards, 3 per row (2 on tablets, 1 on phones).
+   Works for any number of projects; a short last row is centred. */
+#projects .about-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+}
+#projects .details-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 calc((100% - 4rem) / 3);
+  max-width: calc((100% - 4rem) / 3);
+}
+#projects .article-container {
+  flex: 0 0 auto;
+}
+#projects .project-pic {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+#projects .details-container .btn-container {
+  margin-top: auto;
+}
+@media screen and (max-width: 1200px) {
   #projects .details-container {
-    flex: 1 1 calc(25% - 2.5rem);
-    max-width: calc(25% - 2.5rem);
+    flex-basis: calc((100% - 2rem) / 2);
+    max-width: calc((100% - 2rem) / 2);
   }
 }
-@media screen and (min-width: 1201px) {
-  #projects .details-container.project-wide {
-    flex: 2 1 calc(50% - 2.5rem);
-    max-width: calc(50% - 2.5rem);
+@media screen and (max-width: 700px) {
+  #projects .details-container {
+    flex-basis: 100%;
+    max-width: 100%;
   }
 }
